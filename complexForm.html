@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Complex</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <div>
+            <label for="emailUser">Email: 
+                <input type="email" name="emailUser" id="emailUser">
+            </label>
+        </div>
+        <div>
+            <label for="dateSelect">Booking Date:
+                <input type="date" name="bookDate" id="dateSelect">
+            </label>
+        </div>
+        <div>
+            <label for="guestNum">Guests Number:
+                <input type="number" name="guestNum" id="guestNum" min="1" max="9">
+            </label>
+        </div>
+        <div>
+            <label for="agreePolicy">I agree to the cancellation policy 
+                <input type="checkbox" name="agreePolicy" id="agreePolicy" required>
+            </label>
+        </div>
+        <button type="submit">Book Now</button>
+    </form>
+</body>
+</html>
