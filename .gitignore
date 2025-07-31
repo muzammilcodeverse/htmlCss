@@ -1,0 +1,31 @@
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore media files
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.flac
+
+# Ignore images (optional – remove if you want to keep them tracked)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
+
+# Ignore compiled files (if you ever compile SASS, etc.)
+*.css.map
